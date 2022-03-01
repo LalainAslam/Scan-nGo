@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412619762068",
+    "project_id": "scanngo-463c2",
+    "storage_bucket": "scanngo-463c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412619762068:android:92ce4f875bd63e45aa8781",
+        "android_client_info": {
+          "package_name": "com.example.scanngo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412619762068-7bub5se84jjaglmis3t1lhk6p3go7ed5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuIgsHsaWexRZdrB-w1638b9DVIBxuBrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412619762068-7bub5se84jjaglmis3t1lhk6p3go7ed5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
