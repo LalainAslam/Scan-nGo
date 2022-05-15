@@ -54,8 +54,24 @@ private FirebaseAuth firebaseAuth;
                         @Override
                         public void onSuccess(AuthResult authResult) {
                             Toast.makeText(MainActivity2.this, "Welcome User", Toast.LENGTH_SHORT).show();
+
+                            login = (Button) findViewById(R.id.login);
+                            login.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    openActivity2();
+                                }
+                            });
                         }
-                    })
+
+                        public void openActivity2() {
+                            Intent intent = new Intent(MainActivity2.this, MenuPage.class);
+                            startActivity(intent);
+                        }
+
+                        }
+                    )
+
                     .addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
